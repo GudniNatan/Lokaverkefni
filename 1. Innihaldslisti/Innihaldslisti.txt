@@ -15,5 +15,7 @@
 Á dagskrá
 1. Table
 
+Myndir síða
+
 
 Síða verður að vera responsive.
