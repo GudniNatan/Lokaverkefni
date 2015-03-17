@@ -1,0 +1,21 @@
+Síður:
+1. Index
+2. Myndir
+3. Form
+4. Table
+
+Laga Readme
+
+
+Verklýsing:
+1. Innihaldslisti			x
+2. Hugmynda- og skissuvinna		x
+3. Skipulag vefsins - veftré		x
+4. Pöntunarform				x
+5. Undirbúningsskjöl eru vistuð á Github. x
+6. Gerið tímaáætlun
+7. Skrá allar breytingar í comments
+8. Setja frumgerðina á tsuts.tskoli.is/2t/(kt)/lokaverkefni_vsh2a3/
+9. Vefsíðan er prófuð í mismunandi tækjum.
+10. Allar uppfærslur vefsíðunnar eru settar á Github ásamt skýringum
+
