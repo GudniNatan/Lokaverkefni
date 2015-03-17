@@ -1,0 +1,19 @@
+Á öllum síðum:
+1. Navigation
+2. Header
+3. Body
+4. Aside
+5. Footer
+6. Myndir
+
+Á index síðunni:
+1. Texti um viðburð
+
+Á skráningssíðunni:
+1. Form
+
+Á dagskrá
+1. Table
+
+
+Síða verður að vera responsive.
