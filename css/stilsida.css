@@ -1,0 +1,46 @@
+body{
+	background-color: #FFF;
+	max-width: 100em;
+	margin: 0 auto;
+	border-right: 1px solid #BBB;
+}
+div, article, aside, footer, header, nav{
+    -moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari, chrome*/
+	box-sizing:border-box; /* Border og padding (px stærð) leggst inná öll div og hefur ekki áhrif á heildarbreidd */
+	}
+h3{
+	margin-left: 10px;
+}
+div{
+	border-top: 1px solid #BBB;
+	border-left: 1px solid #BBB;
+}
+
+
+/* MENU*/
+.navdiv, .menu-link{
+	border: none;
+}
+.navlink{
+	color: #777;
+	text-decoration: none;
+	padding: 1em 1.5em;
+}
+.navlink:hover{
+	background: #CCC;
+}
+li {
+    display:inline-block;
+    float: left;
+}
+.menutitle{
+    color: #777;
+    margin-top: 0;
+   	margin-right: 1em;
+    margin-bottom: 0.6em;
+}
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
