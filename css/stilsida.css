@@ -1,18 +1,22 @@
 body{
 	background-color: #FFF;
-	max-width: 100em;
+	max-width: 80em;
 	margin: 0 auto;
 	border-right: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+}
+nav{
+	border-left: 1px solid #BBB
 }
 div, article, aside, footer, header, nav{
     -moz-box-sizing:border-box; /* Firefox */
 	-webkit-box-sizing:border-box; /* Safari, chrome*/
 	box-sizing:border-box; /* Border og padding (px stærð) leggst inná öll div og hefur ekki áhrif á heildarbreidd */
-	}
+}
 h3{
 	margin-left: 10px;
 }
-div{
+div, aside, article{
 	border-top: 1px solid #BBB;
 	border-left: 1px solid #BBB;
 }
