@@ -26,6 +26,8 @@ div, aside, article{
 	border-top: 1px solid #BBB;
 	border-left: 1px solid #BBB;
 }
+
+
 /* MENU */
 .navdiv, .menu-link{
 	border: none;
@@ -64,10 +66,10 @@ ul{
 }
 @media (max-width: 48em){
 	body{
-		margin-top: -16.1em;
+		margin-top: -18.75em;
     }
-    body:hover{
-    	margin-top: 0;
+    :target{
+    	margin-top: -2.75em;
     }
     nav{
     	width: 100%;
@@ -101,4 +103,63 @@ ul{
     	padding: 0.5em 0;
 	}
 
+}
+
+
+/* Hamburger icon */
+.menu-link {
+        display: none;
+    }
+@media (max-width: 48em){
+
+.menu-link {
+	float: right;
+	position: relative;
+    display: block; /* show this only on small screens */
+    top: 25em;
+    left: 0; /* "#menu width" */
+    background: #000;
+    background: rgba(0,0,0,0.7);
+    font-size: 0.75em; /* change this value to increase/decrease button size */
+    z-index: 10000;
+    width: 1.6em;
+    height: auto;
+    padding: 1.7em 1.4em;
+}
+
+    .menu-link:hover {
+        background: #000;
+    }
+
+    .menu-link span {
+        position: relative;
+        display: block;
+    }
+
+    .menu-link span,
+    .menu-link span:before,
+    .menu-link span:after {
+        background-color: #fff;
+        width: 100%;
+        height: 0.2em;
+    }
+
+        .menu-link span:before,
+        .menu-link span:after {
+            position: absolute;
+            margin-top: -0.6em;
+            content: " ";
+        }
+
+        .menu-link span:after {
+            margin-top: 0.6em;
+        }
+
+        #menu .pure-menu ul li{
+        display: block;
+        width: 100%;
+    }
+        #menu .pure-menu .pure-menu-heading{
+        display: block;
+        }
 }
