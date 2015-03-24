@@ -1,9 +1,11 @@
-function toggle (t) {
-if (t.name == "closed") {
-    t.href = "#shownav";
-    t.name = "open";
-} else {
-    t.href = "#";
-    t.name = "closed";
-}
+function myFunction() {
+    var p = document.getElementById("shownav");
+    var style = p.currentStyle || window.getComputedStyle(p);
+
+    if (style.marginTop == "0px") {
+       document.getElementById("menuLink").href = "#";
+    }
+    else{
+        document.getElementById("menuLink").href = "#shownav";
+    }
 }

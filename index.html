@@ -20,12 +20,8 @@
         <link rel="stylesheet" type="text/css" href="css/stilsida.css">
 
     </head>
-    <body id="shownav">
-        <a href="#navopen" id="menuLink" name="closed" class="menu-link" onclick="toggle(this)">
-            <!-- Hamburger icon -->
-            <span></span>
-        </a>
-        <nav class="pure-u-1-1">
+    <body>
+        <nav class="pure-u-1-1" id="shownav">
             <div class="navdiv">
                 <ul>
                     <li class="navlist menutitle"><h3 class="menutitle">2A3 Tónleikar</h3></li>
@@ -37,20 +33,26 @@
             </div>
         </nav>
         <header class="pure-g">
+            <section id="icondiv1">
+                <section id="icondiv2">
+                        <a href="#shownav" id="menuLink" name="closed" class="menu-link" onclick="myFunction()">
+                            <!-- Hamburger icon -->
+                            <span></span>
+                        </a>
+                </section>
+            </section>
             <div class="pure-u-1 pure-u-sm-1-2">
-                <p>Logo</p>
-
-
+                <p id="test">Logo</p>
             </div>
             <div class="pure-u-1 pure-u-sm-1-2">
                 <p>Mynd</p>
             </div>
         </header>
-        <section class="pure-g">
-            <aside class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
+        <section class="pure-g" id="parent">
+            <aside class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3" id="a">
                 <p>Mynd</p>        
             </aside>
-            <article class="pure-u-1 pure-u-md-2-3 pure-u-lg-2-3 pure-u-xl-2-3">
+            <article class="pure-u-1 pure-u-md-2-3 pure-u-lg-2-3 pure-u-xl-2-" id="b">
                 <p>Content</p>
             </article>
         </section class="pure-g">
