@@ -1,4 +1,4 @@
-Síğur:
+SÃ­Ã°ur:
 1. Index
 2. Myndir
 3. Form
@@ -7,15 +7,16 @@ Síğur:
 Laga Readme
 
 
-Verklısing:
+VerklÃ½sing:
 1. Innihaldslisti			x
 2. Hugmynda- og skissuvinna		x
-3. Skipulag vefsins - veftré		x
-4. Pöntunarform				x
-5. Undirbúningsskjöl eru vistuğ á Github. x
-6. Geriğ tímaáætlun
-7. Skrá allar breytingar í comments
-8. Setja frumgerğina á tsuts.tskoli.is/2t/(kt)/lokaverkefni_vsh2a3/
-9. Vefsíğan er prófuğ í mismunandi tækjum.
-10. Allar uppfærslur vefsíğunnar eru settar á Github ásamt skıringum
+3. Skipulag vefsins - veftrÃ©		x
+4. PÃ¶ntunarform				x
+5. UndirbÃºningsskjÃ¶l eru vistuÃ° Ã¡ Github. x
+6. GeriÃ° tÃ­maÃ¡Ã¦tlun
+7. SkrÃ¡ allar breytingar Ã­ comments
+8. Setja frumgerÃ°ina Ã¡ tsuts.tskoli.is/2t/(kt)/lokaverkefni_vsh2a3/
+9. VefsÃ­Ã°an er prÃ³fuÃ° Ã­ mismunandi tÃ¦kjum.
+10. Allar uppfÃ¦rslur vefsÃ­Ã°unnar eru settar Ã¡ Github Ã¡samt skÃ½ringum
 
+hallÃ³
