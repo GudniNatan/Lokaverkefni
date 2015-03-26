@@ -1,4 +1,4 @@
-Síður:
+﻿Síður:
 1. Index
 2. Myndir
 3. Form
@@ -19,4 +19,4 @@ Verklýsing:
 9. Vefsíðan er prófuð í mismunandi tækjum.
 10. Allar uppfærslur vefsíðunnar eru settar á Github ásamt skýringum
 
-halló
+halló gudni
