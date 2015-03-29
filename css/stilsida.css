@@ -54,6 +54,12 @@ div, aside, article{
 table{
     width: 100%;
 }
+@media (min-width: 48em){
+    ul li .menutitle{
+        margin-left: -1.5em;
+        margin-right: -.5em;
+    }
+}
 /* Breytir röðinni á mynd og content svo það séu ekki 3 myndir í röð*/
 @media (max-width: 47.99em){
     #parent{        
