@@ -16,7 +16,7 @@ body{
 
     font-family: 'Montserrat', sans-serif;
 }
-p{
+p, h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
 }
 nav{
@@ -50,6 +50,7 @@ h3{
 div, aside, article{
 	border-top: 1px solid #BBB;
 	border-left: 1px solid #BBB;
+    padding: 0.5em 1em;
 }
 table{
     width: 100%;
@@ -57,7 +58,6 @@ table{
 @media (min-width: 48em){
     ul li .menutitle{
         margin-left: -1.5em;
-        margin-right: -.5em;
     }
 }
 /* Breytir röðinni á mynd og content svo það séu ekki 3 myndir í röð*/
@@ -74,6 +74,7 @@ table{
 /* MENU */
 .navdiv, .menu-link{
 	border: none;
+    padding: 0;
 }
 ul{
 	margin: 0;
