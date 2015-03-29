@@ -1,0 +1,7 @@
+Forminu er skipt niður í þrjá dálka.
+
+Fyrsti dálkurinn er með nafn, kennitölu, símanúmer og heimilisfang
+
+Í öðrum dálknum er valið um fjölda miða og síðan eru kreditkortaupplýsingar settar þar og póstnúmer
+
+Þriðji dálkurinn er með "samþykki skilmála" dálk til að haka við og kassa til að samþykkja.
