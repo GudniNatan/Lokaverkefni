@@ -23,7 +23,7 @@ nav{
     top: 0;
     left: 0;
     margin: 0 auto;
-	border: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
     border-top: 0;
     background-color: #f7f7f7;
     position: fixed;
