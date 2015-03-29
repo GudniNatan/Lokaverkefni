@@ -20,44 +20,48 @@
         <link rel="stylesheet" type="text/css" href="css/stilsida.css">
 
     </head>
-    <body id="shownav">
-        <a href="#navopen" id="menuLink" name="closed" class="menu-link" onclick="toggle(this)">
-            <!-- Hamburger icon -->
-            <span></span>
-        </a>
-    <nav class="pure-u-1-1">
-        <div class="navdiv">
-            <ul>
-                <li class="navlist menutitle"><h3 class="menutitle">2A3 Tónleikar</h3></li>
-                <li class="navlist"><a href="index.html" class="navlink">Heim</a></li>
-                <li class="navlist"><a href="#" class="navlink menu-selected">Panta miða</a></li>
-                <li class="navlist"><a href="Table.html" class="navlink">Dagskrá</a></li>
-                <li class="navlist"><a href="Myndir.html" class="navlink">Myndir</a></li>
-            </ul>
-        </div>
-    </nav>
-    <header class="pure-g">
-        <div class="pure-u-1 pure-u-sm-1-2">
-            <p>Logo</p>
-        </div>
-        <div class="pure-u-1 pure-u-sm-1-2">
-            <p>Mynd</p>
-        </div>
-    </header>
-        <section class="pure-g">
-            <div class="pure-u-1">
-            <p>Form</p>
-        </div>
-        </section>
+    <body>
+        <nav class="pure-u-1-1" id="shownav">
+            <div class="navdiv">
+                <ul>
+                    <li class="navlist menutitle"><h3 class="menutitle">2A3 Tónleikar</h3></li>
+                    <li class="navlist"><a href="#" class="navlink menu-selected">Heim</a></li>
+                    <li class="navlist"><a href="skraning.html" class="navlink">Panta miða</a></li>
+                    <li class="navlist"><a href="Table.html" class="navlink">Dagskrá</a></li>
+                    <li class="navlist"><a href="Myndir.html" class="navlink">Myndir</a></li>
+                </ul>
+            </div>
+            <section id="icondiv1">
+                <section id="icondiv2">
+                        <a href="#shownav" id="menuLink" name="closed" class="menu-link" onclick="myFunction()">
+                            <!-- Hamburger icon -->
+                            <span></span>
+                        </a>
+                </section>
+            </section>
+        </nav>
+        <header class="pure-g">
+            <div class="pure-u-1 pure-u-sm-1-2">
+                <p>Logo</p>
+            </div>
+            <div class="pure-u-1 pure-u-sm-1-2">
+                <p>Mynd</p>
+            </div>
+        </header>
+            <section class="pure-g">
+                <div class="pure-u-1">
+                <p>Form</p>
+            </div>
+            </section>
 
-        <div id="content" class="pure-u-1">
-            <p>Content</p>
-        </div>
-        <footer class="pure-g">
-        <div class="pure-u-1">
-            <p>Footer</p>
-        </div>
-    </footer>
-    <script src="js/ui.js"></script>
+            <div id="content" class="pure-u-1">
+                <p>Content</p>
+            </div>
+            <footer class="pure-g">
+            <div class="pure-u-1">
+                <p>Footer</p>
+            </div>
+        </footer>
+        <script src="js/ui.js"></script>
     </body>
 </html>
