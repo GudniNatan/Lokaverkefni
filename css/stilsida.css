@@ -51,6 +51,15 @@ div, aside, article{
 	border-top: 1px solid #BBB;
 	border-left: 1px solid #BBB;
     padding: 0.5em 1em;
+    margin-bottom: 0;
+}
+#parent {
+    display: -ms-flex; 
+    display: -webkit-flex; 
+    display: flex;
+}
+#a {
+    flex:1;
 }
 table{
     width: 100%;
@@ -111,6 +120,14 @@ ul{
 @media (max-width: 48em){
     body{
         margin-top: 0;
+    }
+    p, h1, h2, h3{
+        line-height: 1em;
+        font-size: 100%;
+    }
+    nav h3{
+        font-size: 100%;
+        line-height: 0.5em;
     }
 	nav{
 		margin-top: -12.75em;
