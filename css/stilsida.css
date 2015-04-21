@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 body{
-	background-color:white;
+	background-color: #f7f7f7;
 	max-width: 80em;
 	margin: 0 auto;
     margin-top: 3.2em;
-	/* border-right: 1px solid #BBB;	/* Til að breyta lit á border breyttu öllu sem er #BBB*/
-	/* border-bottom: 1px solid #BBB; */
+	border-right: 1px solid #BBB;	/* Til að breyta lit á border breyttu öllu sem er #BBB*/
+	border-bottom: 1px solid #BBB;
 
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -23,7 +23,7 @@ nav{
     top: 0;
     left: 0;
     margin: 0 auto;
-    /* border-bottom: 1px solid #BBB; */
+    border-bottom: 1px solid #BBB;
     border-top: 0;
     background-color: #f7f7f7;
     position: fixed;
@@ -48,53 +48,10 @@ h3{
 	margin-left: 10px;
 }
 div, aside, article{
-    /*
 	border-top: 1px solid #BBB;
-	border-left: 1px solid #BBB;   */
+	border-left: 1px solid #BBB;
     padding: 0.5em 1em;
     margin-bottom: 0;
-}
-header{
-    margin-top: 5em;
-    border: 20px solid #A366A3;
-    border-radius: 30px;
-    margin-bottom: 2em;
-}
-#content{
-    background-color: white;
-    margin: 0 auto;
-    border: 20px solid #A366A3;
-    border-radius: 30px;
-
-}
-#content p{
-    max-width: 60em;
-    margin: 0 auto;
-}
-.logo img{
-    position: relative;
-    max-width: 100%;
-    display: block;
-    z-index: -10;
-}
-.img img{
-    max-width: 100%;
-    display: block;
-    position: relative;
-    z-index: -10;
-}
-.img{
-    border-top: 10px solid #A366A3;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-.logo{
-    margin: 0;
-    padding: 0;
-}
-footer{
-    text-align: center;
 }
 #parent {
     display: -ms-flex; 
@@ -107,14 +64,9 @@ footer{
 table{
     width: 100%;
 }
-@media (min-width: 48em){   /* Medium */
+@media (min-width: 48em){
     ul li .menutitle{
-        margin-left: -20px;
-    }
-}
-@media (min-width: 35.5em){ /* Small */
-    .img{
-        border: none;
+        margin-left: -1.5em;
     }
 }
 /* Breytir röðinni á mynd og content svo það séu ekki 3 myndir í röð*/
@@ -214,9 +166,6 @@ ul{
     	margin: 0;
     	padding: 0.5em 0;
 	}
-    header{
-        margin-top: 1em;
-    }
 
 }
 
