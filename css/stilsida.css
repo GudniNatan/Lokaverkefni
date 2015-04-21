@@ -54,6 +54,7 @@ div, aside, article{
     padding: 0.5em 1em;
     margin-bottom: 0;
 }
+<<<<<<< HEAD
 header{
     margin-top: 5em;
     border: 20px solid #A366A3;
@@ -95,6 +96,10 @@ header{
 }
 footer{
     text-align: center;
+=======
+.Logo{
+    width: 100%;
+>>>>>>> origin/master
 }
 #parent {
     display: -ms-flex; 
