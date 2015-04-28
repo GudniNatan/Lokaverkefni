@@ -56,35 +56,34 @@ div, aside, article{
 }
 header{
     margin-top: 5em;
-    border: 20px solid #A366A3;
-    border-radius: 30px;
     margin-bottom: 2em;
+}
+.auglbig, .auglsmall{
+    margin: 0;
+    padding: 0;
+}
+.auglbig{
+    display: none;
+}
+aside{
+    text-align: center;
+    width: 100%;
 }
 #content{
     background-color: white;
     margin: 0 auto;
-    border: 20px solid #A366A3;
-    border-radius: 30px;
+    max-width: 70em;
+    text-align: left;
 
 }
-#content p{
-    max-width: 60em;
-    margin: 0 auto;
-}
-.logo img{
+.logo img, .img img, .auglbig img, .auglsmall img{
     position: relative;
     max-width: 100%;
     display: block;
-    z-index: -10;
-}
-.img img{
-    max-width: 100%;
-    display: block;
-    position: relative;
     z-index: -10;
 }
 .img{
-    border-top: 10px solid #A366A3;
+    border-top: 1em solid #A366A3;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -93,7 +92,7 @@ header{
     margin: 0;
     padding: 0;
 }
-footer{
+footer, article{
     text-align: center;
 }
 #parent {
@@ -107,10 +106,27 @@ footer{
 table{
     width: 100%;
 }
+header, .auglbig, .auglsmall, #content
+{
+    border: 0.75em solid #A366A3;
+    border-radius: 1em;
+}
 @media (min-width: 48em){   /* Medium */
     ul li .menutitle{
         margin-left: -20px;
     }
+    .auglbig{
+        display: block;
+    }
+    .auglsmall{
+        display: none;
+    }
+    header, .auglbig, .auglsmall, #content
+    {
+        border: 1em solid #A366A3;
+        border-radius: 1.5em;
+    }
+
 }
 @media (min-width: 35.5em){ /* Small */
     .img{
