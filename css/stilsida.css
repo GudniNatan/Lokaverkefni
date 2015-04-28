@@ -53,6 +53,7 @@ div, aside, article{
     border-left: 1px solid #BBB;   */
     padding: 0.5em 1em;
     margin-bottom: 0;
+    border:1px solid;
 }
 .formdiv{
     background-color: #f7f7f7;
