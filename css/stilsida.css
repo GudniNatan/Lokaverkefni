@@ -39,7 +39,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-div, article, aside, footer, header, nav{
+div, article, aside, footer, header, nav, section{
     -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari, chrome*/
     box-sizing:border-box; /* Border og padding (px stærð) leggst inná öll div og hefur ekki áhrif á heildarbreidd */
@@ -53,6 +53,17 @@ div, aside, article{
     border-left: 1px solid #BBB;   */
     padding: 0.5em 1em;
     margin-bottom: 0;
+}
+.formdiv{
+    background-color: #f7f7f7;
+    width: 100%;
+}
+.innerformdiv{
+    max-width: 80em;
+    margin: 0 auto;
+}
+.innerformdiv p{
+    margin-left: 1em;
 }
 header{
     margin-top: 5em;

@@ -48,67 +48,68 @@
                 <a href="#"><img src="img/drumset2.png"></a>
             </div>
         </header>
-        <section class="pure-g">
-            <div class="pure-u-1">
-                <p>Form</p>
-                <form class="pure-form pure-form-stacked">
-    <fieldset>
+        <section class="formdiv">
+        <section class="innerformdiv">
+            <p>Skráning</p>
+        <form class="pure-form pure-form-stacked">
+            <fieldset>
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="full-name">Fullt nafn</label>
+                        <input id="full-name" class="pure-u-23-24" type="text" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,100}$" title="Minnst fjóra stafi vantar" required>
+                    </div>
 
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="full-name">Fullt nafn</label>
-                <input id="full-name" class="pure-u-23-24" type="text" required>
-            </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="Ticket-">Fjöldi miða</label>
+                        <input id="last-name" class="pure-u-23-24" type="number" required>
+                    </div>
 
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="Ticket-">Fjöldi miða</label>
-                <input id="last-name" class="pure-u-23-24" type="text" required>
-            </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="Social-Security-Number">Kennitala</label>
+                        <input id="Social-Security-Number" class="pure-u-23-24" type="text" pattern="^[a-zA-Z0-9]{10,30}$" title="Ekki lögleg kennitala" required>
+                    </div>
 
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="Social-Security-Number">Kennitala</label>
-                <input id="Social-Security-Number" class="pure-u-23-24" type="email" required>
-            </div>
-
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="Creditcard-Number">Kreditkort Númer</label>
-                <input id="Creditcard-Number" class="pure-u-23-24" type="text" required>
-            </div>
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="Phone-Number">Síma Númer</label>
-                <input id="Phone-Number" class="pure-u-23-24" type="text" required>
-            </div>
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="CVV">CVV</label>
-                <input id="CVV" class="pure-u-23-24" type="text" required>
-            </div>
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="Street-Address">Heimilisfang</label>
-                <input id="Street-Address" class="pure-u-23-24" type="text" required>
-            </div>
-            <div class="pure-u-1 pure-u-md-1-2">
-                <label for="Postal-Code">Póstnúmer</label>
-                <input id="Postal-Code" class="pure-u-23-24" type="text">
-            </div required>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2">
-        <label for="terms" class="pure-checkbox">
-            <input id="terms" type="checkbox"> Samþykki skilmála
-        </label required>
-		</div>
-		<div class="pure-u-1 pure-u-md-1-2">
-        <button type="submit" class="pure-button pure-button-primary">Kaupa miða</button>
-        </div>
-    </fieldset>
-</form>
-            </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="Creditcard-Number">Kreditkort Númer</label>
+                        <input id="Creditcard-Number" class="pure-u-23-24" type="text" required>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="Phone-Number">Símanúmer</label>
+                        <input id="Phone-Number" class="pure-u-23-24" type="text" pattern="\d{3}[\-]\d{4}" title="Símanúmer sett upp svona: 123-4567" required>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="CVV">CVV</label>
+                        <input id="CVV" class="pure-u-23-24" type="text" required>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="Street-Address">Heimilisfang</label>
+                        <input id="Street-Address" class="pure-u-23-24" type="text" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,100}$" title="Minnst fjóra stafi vantar" required>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <label for="Postal-Code">Póstnúmer</label>
+                        <input id="Postal-Code" class="pure-u-23-24" pattern="[0-9]{3}" title="Ekki löglegt póstnúmer" type="text">
+                    </div required>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2">
+                <label for="terms" class="pure-checkbox">
+                    <input id="terms" type="checkbox" required> Samþykki skilmála
+                </label required>
+        		</div>
+        		<div class="pure-u-1 pure-u-md-1-2">
+                <button type="submit" class="pure-button pure-button-primary">Kaupa miða</button>
+                </div>
+            </fieldset>
+        </form>
         </section>
-        <div id="content" class="pure-u-1">
-            <h3>Content - Vissir þú að...</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae tempor mi. Sed eget sem id nulla blandit imperdiet vel id ante. Etiam id consectetur ex. Maecenas molestie cursus ex interdum posuere. Nullam vel consequat odio, a cursus urna. Suspendisse pretium tempus enim non maximus. Proin sem leo, dictum sed commodo in, pharetra ac enim. Sed auctor, ipsum quis mattis sodales, nulla neque convallis nunc, ac accumsan lorem quam sed quam. Morbi hendrerit non ex pharetra semper. Morbi tellus quam, condimentum vel sem non, congue malesuada magna. Sed eget tellus neque.
-            </p>
-        </div>
+        </section>
+        <article>
+            <div id="content" class="pure-u-1">
+                <h3>Content</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae tempor mi. Sed eget sem id nulla blandit imperdiet vel id ante. Etiam id consectetur ex. Maecenas molestie cursus ex interdum posuere. Nullam vel consequat odio, a cursus urna. Suspendisse pretium tempus enim non maximus. Proin sem leo, dictum sed commodo in, pharetra ac enim. Sed auctor, ipsum quis mattis sodales, nulla neque convallis nunc, ac accumsan lorem quam sed quam. Morbi hendrerit non ex pharetra semper. Morbi tellus quam, condimentum vel sem non, congue malesuada magna. Sed eget tellus neque. <a href="skraning.html">Pantaðu miða núna...</a>
+                </p>
+            </div>
+        </article>
         <footer class="pure-g">
             <div class="pure-u-1">
                 <p>Footer</p>
