@@ -78,7 +78,7 @@ header{
 }
 aside{
     text-align: center;
-    width: 100%;
+    vertical-align: center;
 }
 #content{
     background-color: white;
@@ -136,6 +136,9 @@ header, .auglbig, .auglsmall, #content
     {
         border: 1em solid #A366A3;
         border-radius: 1.5em;
+    }
+    aside{
+        max-width: 34%;
     }
 
 }
