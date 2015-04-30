@@ -16,7 +16,7 @@ body{
 
     font-family: 'Montserrat', sans-serif;
 }
-p, h1, h2, h3{
+p, h1, h2, h3, figcaption{
     font-family: 'Montserrat', sans-serif;
 }
 nav{
@@ -39,7 +39,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-div, article, aside, footer, header, nav, section{
+div, article, aside, footer, header, nav, section, figure, img, figcaption{
     -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari, chrome*/
     box-sizing:border-box; /* Border og padding (px stærð) leggst inná öll div og hefur ekki áhrif á heildarbreidd */
@@ -99,6 +99,16 @@ aside{
     margin: 0;
     padding: 0;
 }
+figure img{
+    margin: 0 auto;
+}
+figure{
+    margin: 0 auto;
+}
+figcaption{
+    text-align: center;
+    position: static;
+}
 .logo{
     margin: 0;
     padding: 0;
@@ -123,7 +133,7 @@ footer, article{
 table{
     width: 100%;
 }
-header, .auglbig, .auglsmall, #content
+header, .auglbig, .auglsmall, #content, .myndir
 {
     border: 0.75em solid #A366A3;
     border-radius: 1em;
@@ -146,7 +156,15 @@ header, .auglbig, .auglsmall, #content
     aside{
         max-width: 34%;
     }
-
+    figcaption{
+        text-align: left;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 5%;
+        z-index: -10;
+    }
 }
 @media (min-width: 35.5em){ /* Small */
     .img{
