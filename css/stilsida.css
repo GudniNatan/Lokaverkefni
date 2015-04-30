@@ -133,9 +133,13 @@ footer, article{
 table{
     width: 100%;
 }
-header, .auglbig, .auglsmall, #content, .myndir
+header, .auglbig, .auglsmall, #content
 {
     border: 0.75em solid #A366A3;
+    border-radius: 1em;
+}
+.myndir{
+    border: 0.75em solid #fff;
     border-radius: 1em;
 }
 @media (min-width: 48em){   /* Medium */
