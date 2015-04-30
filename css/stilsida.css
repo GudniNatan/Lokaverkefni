@@ -1,12 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,600,700);
 
 body{
     background-color:white;
     max-width: 80em;
     margin: 0 auto;
     margin-top: 3.2em;
-    /* border-right: 1px solid #BBB;    /* Til að breyta lit á border breyttu öllu sem er #BBB*/
-    /* border-bottom: 1px solid #BBB; */
 
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -23,7 +21,6 @@ nav{
     top: 0;
     left: 0;
     margin: 0 auto;
-    /* border-bottom: 1px solid #BBB; */
     border-top: 0;
     background-color: #f7f7f7;
     position: fixed;
@@ -45,12 +42,9 @@ div, article, aside, footer, header, nav, section, figure, img, figcaption{
     box-sizing:border-box; /* Border og padding (px stærð) leggst inná öll div og hefur ekki áhrif á heildarbreidd */
 }
 h3{
-    margin-left: 10px;
+    margin-left: 1em;
 }
 div, aside, article{
-    /*
-    border-top: 1px solid #BBB;
-    border-left: 1px solid #BBB;   */
     padding: 0.5em 1em;
     margin-bottom: 0;
 }
@@ -144,7 +138,7 @@ header, .auglbig, .auglsmall, #content
 }
 @media (min-width: 48em){   /* Medium */
     ul li .menutitle{
-        margin-left: -20px;
+        margin-left: -20px; /* Verður að vera í px.*/
     }
     .auglbig{
         display: block;
@@ -275,9 +269,17 @@ ul{
     header{
         margin-top: 1em;
     }
-
 }
-
+@media (max-width: 35.5em){
+    p, figcaption{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+    }
+    h1, h2, h3{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+    }
+}
 
 /* Hamburger icon */
 
