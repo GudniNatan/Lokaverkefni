@@ -269,8 +269,6 @@ ul{
     header{
         margin-top: 1em;
     }
-}
-@media (max-width: 35.5em){
     p, figcaption{
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
